@@ -5,7 +5,7 @@ from cookielib import CookieJar
 from datetime import date
 import re
 import os
-numberofcycle
+
 #Number of games in NHL Season: 1230
 #First year that NHL.com released HTML Reports: 2003-2004
 year = str(20032004)
