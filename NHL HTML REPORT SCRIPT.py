@@ -5,12 +5,7 @@ from cookielib import CookieJar
 from datetime import date
 import re
 import os
-
-
-cj = CookieJar()
-opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
-opener.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.27 Safari/537.17')]
-
+numberofcycle
 #Number of games in NHL Season: 1230
 #First year that NHL.com released HTML Reports: 2003-2004
 year = str(20032004)
