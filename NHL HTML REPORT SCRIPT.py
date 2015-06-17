@@ -3,6 +3,7 @@ from urllib2 import HTTPError
 from urllib2 import urlopen
 from cookielib import CookieJar
 from datetime import date
+from directoryref import HTMLReportDirectory
 import re
 import os
 
@@ -56,7 +57,7 @@ def sourcecodetotext(url, gamenumber, year):
 		print "Game %s in year %s does not exist in HTML Report database" %(gamenumber, year)
 
 def makestringpath(year):
-	directory = 'C:\\Users\\Owner\\Desktop\\NHL HTML Reports\\' + year
+	directory = HTMLReportDirectory + '\\NHL HTML Reports\\' + year
 	return directory
 
 

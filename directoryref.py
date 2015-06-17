@@ -1,0 +1,1 @@
+HTMLReportDirectory = "C:\\Users\\Owner\\Documents\\GitHub\\NHL-Data-Scraper\\NHL HTML Reports"
