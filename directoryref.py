@@ -1,1 +1,1 @@
-HTMLReportDirectory = "C:\\Users\\Owner\\Documents\\GitHub\\NHL-Data-Scraper\\NHL HTML Reports"
+HTMLReportDirectory = "C:\\Users\\Owner\\Desktop\\NHL HTML Reports\\"
